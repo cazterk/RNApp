@@ -9,7 +9,7 @@ export const tabOptions = {
     activeTintColor: colors.blue,
     inactiveTintColor: colors.dark,
     style: {
-      backgroundColor: colors.bright,
+      backgroundColor: "#D7DBDD",
     },
   },
 };
@@ -19,7 +19,7 @@ export const stackOptions = title => ({
   headerTintColor: colors.dark,
   headerBackTitle: 'Back',
   headerStyle: {
-    backgroundColor: colors.creamy,
+    backgroundColor: "#D7DBDD",
     borderBottomWidth: 0,
   },
 });
