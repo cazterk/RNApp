@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import { StyleSheet, AsyncStorage } from 'react-native';
+import Logo from '../../components/logo'
 
 import {
   Container,
@@ -24,6 +25,7 @@ const SignIn = ({ navigation: { navigate } }) => {
 
   return (
     <Container style={styles.container}>
+      <Logo />
       <Centered style={styles.container}>
         <TextInput placeholder={placeholders.username} />
         <TextInput placeholder={placeholders.password} password />
@@ -45,7 +47,7 @@ const SignIn = ({ navigation: { navigate } }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#5D6D7E',
+    backgroundColor: '#2E4053',
     alignItems: 'center',
     justifyContent: 'center',
   }

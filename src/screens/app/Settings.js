@@ -19,6 +19,7 @@ const Settings = ({ navigation }) => {
   return (
     <Container style={styles.container}>
       <Centered style={styles.container}>
+        <Text style={styles.text}>Manage Settings</Text>
         <TextInput placeholder={placeholders.oldPassword} password />
         <TextInput placeholder={placeholders.newPassword} password />
         <Button>
@@ -36,12 +37,17 @@ const Settings = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#5D6D7E',
+    backgroundColor: '#2E4053',
     alignItems: 'center',
     justifyContent: 'center',
   },
   sb: {
-    backgroundColor: '#5D6D7E',
+    backgroundColor: '#2E4053',
+  },
+  text: {
+    color: "white",
+    fontWeight: "bold",
+    fontSize: 35
   }
 })
 
